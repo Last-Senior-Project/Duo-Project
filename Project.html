@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Human Resources Deaprtement</h1>
+    </div>
+    <div id="container-1">
+
+        <center>
+            <form id="form">
+                <h1>Login</h1>
+                <div class="inpt">
+
+                    <input type="text" id="login" class="hr" placeholder="Username" required>
+                </div>
+                <div class="inpt">
+
+                    <input type="password" id="password1" class="hr" placeholder="Password" required>
+                </div>
+                <input type="submit" value="Login" class="submit" id="btn">
+
+        </center>
+        </form>
+    </div>
+    <div id="container-3">
+        <div id="list">
+            <ol id="ol"></ol>
+        </div>
+        <button type="button" id="add" class="up-down">&#128395</button>
+        <button type="button" id="remove" class="up-down"> &#9940</button>
+        <button type="button" id="down" class="up-down">&#128315</button>
+        <button type="button" id="up" class="up-down">&#128314</button>
+        <button type="button" id="logout" class="logout">logout</button>
+    </div>
+    <div id="container-2">
+        <center>
+            <div id="container-2-1">
+                <div class="inpt">
+                    <input type="text" id="firstName" placeholder="FirstName">
+                </div>
+                <div class="inpt">
+                    <input type="text" id="lastName" placeholder="LastName">
+                </div>
+                <div class="inpt">
+                    <input type="email" id="email" placeholder="exemple@exmple.org">
+                </div>
+
+                <button type="button" id="button" class="logout">ADD</button><br>
+                <button type="button" id="back" class="up-down">&#128281</button>
+        </center>
+    </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
